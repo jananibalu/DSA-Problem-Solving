@@ -1,1 +1,1 @@
-# DSA-Problem-Solving
+# Practicing JS core concepts + logic
