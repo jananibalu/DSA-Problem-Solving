@@ -11,13 +11,25 @@ export default function IsPalindrome() {
         }
         return true
     }
+
     const sentence = "dad";
     // const sentence = "level";
     // const sentence = "world";
-   
+
     const result = ISpalindrome(sentence);
 
     console.log(result);
+
+    var x = 1;
+    function outer() {
+        var x = 2;
+        function inner() {
+            console.log(x);
+        }
+        inner();
+    }
+    outer();
+    console.log(x);
 
     return (
         <div>  IsPalindrome: {result ? "Yes" : "No"}</div>
